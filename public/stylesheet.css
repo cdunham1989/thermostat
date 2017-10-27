@@ -1,0 +1,149 @@
+.low-usage {
+  color: green;
+}
+
+.medium-usage {
+  color: black;
+}
+
+.high-usage {
+  color: red;
+}
+
+body {
+  background-color: beige;
+}
+
+#temperature {
+  text-align: center;
+  font-size: 40px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+#temperature-controls {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#psm-mode {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#psm-controls {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#psm-setting {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+#weather-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#outside-temp {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+#selected-city {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#city-form {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#temperature-up {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 33px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 4px;
+  text-decoration: none;
+  margin-right: 40px;
+}
+#temperature-up:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+#temperature-down {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 13px 25px 11px 25px;
+  border: solid #1f628d 4px;
+  text-decoration: none;
+}
+#temperature-down:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+#temperature-reset {
+  background: #d93455;
+  background-image: -webkit-linear-gradient(top, #d93455, #b82b2b);
+  background-image: -moz-linear-gradient(top, #d93455, #b82b2b);
+  background-image: -ms-linear-gradient(top, #d93455, #b82b2b);
+  background-image: -o-linear-gradient(top, #d93455, #b82b2b);
+  background-image: linear-gradient(to bottom, #d93455, #b82b2b);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 12px 24px 11px 24px;
+  border: solid #8c261f 4px;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+#temperature-reset:hover {
+  background: #fc3c56;
+  background-image: -webkit-linear-gradient(top, #fc3c56, #d9345d);
+  background-image: -moz-linear-gradient(top, #fc3c56, #d9345d);
+  background-image: -ms-linear-gradient(top, #fc3c56, #d9345d);
+  background-image: -o-linear-gradient(top, #fc3c56, #d9345d);
+  background-image: linear-gradient(to bottom, #fc3c56, #d9345d);
+  text-decoration: none;
+}
